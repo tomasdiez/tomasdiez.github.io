@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on Tomas Diez</title>
+    <link>/categories/architecture/</link>
+    <description>Recent content in Architecture on Tomas Diez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 May 2008 20:36:00 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Architecture Beyond Buildings</title>
+      <link>/2008/archbeyond/</link>
+      <pubDate>Mon, 12 May 2008 20:36:00 +0200</pubDate>
+      
+      <guid>/2008/archbeyond/</guid>
+      <description>Venice Biennale 2008? Aaron Betsky? Zaha? Frank? Diller?&amp;hellip;&amp;hellip;&amp;hellip;
+NO
+I guess that Aaron was about 8 months ago sitting in his office at Cincinnati, thinking about the next biennale, having only a couple of months to make a proposal for the organization as the selected curator.
+ &amp;ldquo;Should be something artistic&amp;rdquo; &amp;ldquo;Something more than architecture&amp;rdquo; &amp;ldquo;Something that suggests something&amp;rdquo;  ARCHITECTURE BEYOND BUILDINGS!
+ &amp;ldquo;Every architect presents an installation, no more exhibition about past projects and models&amp;rdquo;  Voilá!</description>
+    </item>
+    
+  </channel>
+</rss>
