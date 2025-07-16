@@ -1,6 +1,6 @@
 {
-  "commit": "abde3d3c6470574903f972c4e145e735ae7aa9f6",
-  "generated": "2025-07-16T15:17:36.462Z",
+  "commit": "a94635a23ac68ae5e81835fde00455a3aaab9bcb",
+  "generated": "2025-07-16T15:19:02.643Z",
   "metadata": [
     {
       "__outstatic": {
@@ -121,22 +121,6 @@
     },
     {
       "__outstatic": {
-        "commit": "506dbf41f8539474c22d4b654aa85915349de403",
-        "hash": "1201676669",
-        "path": "outstatic/content/about/venezuela.mdx"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "about",
-      "publishedAt": "2025-07-16T15:58:38.988Z",
-      "slug": "venezuela",
-      "status": "published",
-      "title": "Venezuela"
-    },
-    {
-      "__outstatic": {
         "commit": "875a779a8eddba7922e1d070ef7dd86240c9dec5",
         "hash": "1879913844",
         "path": "outstatic/content/pages/hello-world.mdx"
@@ -168,6 +152,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "a94635a23ac68ae5e81835fde00455a3aaab9bcb",
+        "hash": "182516752",
+        "path": "outstatic/content/about/venezuela.mdx"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "about",
+      "publishedAt": "2025-07-16T15:58:38.988Z",
+      "slug": "venezuela",
+      "status": "published",
+      "title": "Venezuela"
     }
   ]
 }
