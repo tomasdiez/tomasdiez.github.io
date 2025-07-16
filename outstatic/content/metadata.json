@@ -1,6 +1,6 @@
 {
-  "commit": "875a779a8eddba7922e1d070ef7dd86240c9dec5",
-  "generated": "2025-07-16T15:16:55.288Z",
+  "commit": "abde3d3c6470574903f972c4e145e735ae7aa9f6",
+  "generated": "2025-07-16T15:17:36.462Z",
   "metadata": [
     {
       "__outstatic": {
@@ -121,24 +121,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-        "hash": "3575094646",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "506dbf41f8539474c22d4b654aa85915349de403",
         "hash": "1201676669",
         "path": "outstatic/content/about/venezuela.mdx"
@@ -168,6 +150,24 @@
       "slug": "hello-world",
       "status": "published",
       "title": "Hello world"
+    },
+    {
+      "__outstatic": {
+        "commit": "abde3d3c6470574903f972c4e145e735ae7aa9f6",
+        "hash": "2920240910",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
