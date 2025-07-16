@@ -1,6 +1,6 @@
 {
-  "commit": "506dbf41f8539474c22d4b654aa85915349de403",
-  "generated": "2025-07-16T15:10:52.965Z",
+  "commit": "875a779a8eddba7922e1d070ef7dd86240c9dec5",
+  "generated": "2025-07-16T15:16:55.288Z",
   "metadata": [
     {
       "__outstatic": {
@@ -152,6 +152,22 @@
       "slug": "venezuela",
       "status": "published",
       "title": "Venezuela"
+    },
+    {
+      "__outstatic": {
+        "commit": "875a779a8eddba7922e1d070ef7dd86240c9dec5",
+        "hash": "1879913844",
+        "path": "outstatic/content/pages/hello-world.mdx"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "pages",
+      "publishedAt": "2025-07-16T16:04:15.988Z",
+      "slug": "hello-world",
+      "status": "published",
+      "title": "Hello world"
     }
   ]
 }
