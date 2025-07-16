@@ -1,6 +1,6 @@
 {
-  "commit": "a94635a23ac68ae5e81835fde00455a3aaab9bcb",
-  "generated": "2025-07-16T15:19:02.643Z",
+  "commit": "5577e548d91d54a10752978b086d62d38a2983fb",
+  "generated": "2025-07-16T23:56:39.120Z",
   "metadata": [
     {
       "__outstatic": {
@@ -168,6 +168,24 @@
       "slug": "venezuela",
       "status": "published",
       "title": "Venezuela"
+    },
+    {
+      "__outstatic": {
+        "commit": "5577e548d91d54a10752978b086d62d38a2983fb",
+        "hash": "1838980268",
+        "path": "outstatic/content/posts/testing-a-new-post.mdx"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-07-17T00:44:05.540Z",
+      "slug": "testing-a-new-post",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Testing a new post"
     }
   ]
 }

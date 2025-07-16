@@ -1,6 +1,6 @@
 {
-  "commit": "a94635a23ac68ae5e81835fde00455a3aaab9bcb",
-  "generated": "2025-07-16T15:19:02.643Z",
+  "commit": "5577e548d91d54a10752978b086d62d38a2983fb",
+  "generated": "2025-07-16T23:56:39.120Z",
   "media": [
     {
       "__outstatic": {
@@ -99,6 +99,17 @@
       "alt": "",
       "filename": "screenshot-2025-07-15-at-21.40.21-YwMT.png",
       "publishedAt": "2025-07-16T15:19:02.642Z",
+      "type": "image"
+    },
+    {
+      "__outstatic": {
+        "commit": "5577e548d91d54a10752978b086d62d38a2983fb",
+        "hash": "72577077",
+        "path": "public/images/screenshot-2025-07-16-at-11.22.32-QxMD.png"
+      },
+      "alt": "",
+      "filename": "screenshot-2025-07-16-at-11.22.32-QxMD.png",
+      "publishedAt": "2025-07-16T23:56:39.119Z",
       "type": "image"
     },
     {
