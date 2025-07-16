@@ -1,6 +1,6 @@
 {
-  "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-  "generated": "2025-07-16T15:01:20.787Z",
+  "commit": "506dbf41f8539474c22d4b654aa85915349de403",
+  "generated": "2025-07-16T15:10:52.965Z",
   "metadata": [
     {
       "__outstatic": {
@@ -136,6 +136,22 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "506dbf41f8539474c22d4b654aa85915349de403",
+        "hash": "1201676669",
+        "path": "outstatic/content/about/venezuela.mdx"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "about",
+      "publishedAt": "2025-07-16T15:58:38.988Z",
+      "slug": "venezuela",
+      "status": "published",
+      "title": "Venezuela"
     }
   ]
 }
