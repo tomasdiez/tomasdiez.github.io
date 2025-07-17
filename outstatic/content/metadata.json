@@ -1,6 +1,6 @@
 {
-  "commit": "ac2776d79f908f7782452bb919002083ebc5673a",
-  "generated": "2025-07-17T03:47:18.152Z",
+  "commit": "c11e022bb7b042fae07343fcb311732886940df2",
+  "generated": "2025-07-17T03:48:36.312Z",
   "metadata": [
     {
       "__outstatic": {
@@ -136,33 +136,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d7220ea2e821225f894d3c4655a9ba65641b9518",
-        "hash": "3270811114",
-        "path": "outstatic/content/posts/testing-a-new-post.mdx"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "posts",
-      "image": "/images/screenshot-2025-07-15-at-21.40.21-YwMT.png",
-      "publishedAt": "2025-07-17T00:44:05.540Z",
-      "slug": "testing-a-new-post",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Life",
-          "value": "life"
-        },
-        {
-          "label": "Tests",
-          "value": "tests"
-        }
-      ],
-      "title": "Testing a new post"
-    },
-    {
-      "__outstatic": {
         "commit": "573d0731421a5fe0023c6e5b173e73675863d252",
         "hash": "498523311",
         "path": "outstatic/content/projects/can-i-add-a-new-project.mdx"
@@ -216,6 +189,34 @@
       "tags": [
       ],
       "title": "Nothing is wrong. Everything is perfect"
+    },
+    {
+      "__outstatic": {
+        "commit": "c11e022bb7b042fae07343fcb311732886940df2",
+        "hash": "349406049",
+        "path": "outstatic/content/posts/testing-a-new-post.mdx"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/screenshot-2022-06-08-at-14.41.47-k0Mz.png",
+      "image": "/images/screenshot-2025-07-15-at-21.40.21-YwMT.png",
+      "publishedAt": "2025-07-17T00:44:05.540Z",
+      "slug": "testing-a-new-post",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Life",
+          "value": "life"
+        },
+        {
+          "label": "Tests",
+          "value": "tests"
+        }
+      ],
+      "title": "Testing a new post"
     }
   ]
 }
