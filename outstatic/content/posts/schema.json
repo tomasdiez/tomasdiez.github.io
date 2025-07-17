@@ -36,6 +36,11 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Image"
+    },
+    "coverImage": {
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Cover Image"
     }
   }
 }
