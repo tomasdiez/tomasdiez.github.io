@@ -1,12 +1,14 @@
 ---
-title: 'Nothing is wrong. Everything is perfect'
-status: 'published'
+title: "Nothing is wrong. Everything is perfect"
+status: "published"
 author:
-  name: 'Andre Vitorio'
-slug: 'nothing-wrong'
-description: 'One more day, one more joy. I feel blessed.'
-coverImage: '/images/industrial-pattern.png'
-publishedAt: '2022-09-14T17:55:40.452Z'
+  name: "Andre Vitorio"
+  picture: "https://avatars.githubusercontent.com/u/1511398?v=4"
+slug: "nothing-wrong"
+description: "One more day, one more joy. I feel blessed."
+coverImage: "/images/screenshot-2025-07-10-at-15.37.02-UwNj.png"
+publishedAt: "2022-09-14T17:55:40.452Z"
+image: ""
 ---
 
 Everything's good with me, my fam and my dreams are coming true. One at a time, one at a time.
