@@ -1,6 +1,6 @@
 {
-  "commit": "573d0731421a5fe0023c6e5b173e73675863d252",
-  "generated": "2025-07-17T01:16:23.556Z",
+  "commit": "7f1dda570ae9c453d5a036f615f9de0027e5ff50",
+  "generated": "2025-07-17T01:18:22.352Z",
   "metadata": [
     {
       "__outstatic": {
@@ -137,24 +137,6 @@
     },
     {
       "__outstatic": {
-        "commit": "abde3d3c6470574903f972c4e145e735ae7aa9f6",
-        "hash": "2920240910",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "a94635a23ac68ae5e81835fde00455a3aaab9bcb",
         "hash": "182516752",
         "path": "outstatic/content/about/venezuela.mdx"
@@ -212,6 +194,24 @@
       "slug": "can-i-add-a-new-project",
       "status": "published",
       "title": "Can I add a new project?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7f1dda570ae9c453d5a036f615f9de0027e5ff50",
+        "hash": "184262883",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog. I am sharing some ideas here",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }

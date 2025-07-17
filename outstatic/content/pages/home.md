@@ -5,7 +5,7 @@ author:
   name: "Tomas Diez"
   picture: "https://avatars.githubusercontent.com/u/1511398?v=4"
 slug: "home"
-description: "This is my blog."
+description: "This is my blog. I am sharing some ideas here"
 coverImage: ""
 publishedAt: "2022-03-17T05:35:07.322Z"
 ---
