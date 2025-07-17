@@ -1,6 +1,6 @@
 {
-  "commit": "8bf3b12acffb39c9e2ab62ddda7a6c4bdca3a0ee",
-  "generated": "2025-07-17T03:52:03.014Z",
+  "commit": "e888176642e9b22a5ee477288aba39fae86431ef",
+  "generated": "2025-07-17T03:52:26.423Z",
   "metadata": [
     {
       "__outstatic": {
@@ -137,24 +137,6 @@
     },
     {
       "__outstatic": {
-        "commit": "7f1dda570ae9c453d5a036f615f9de0027e5ff50",
-        "hash": "184262883",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog. I am sharing some ideas here",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "ac2776d79f908f7782452bb919002083ebc5673a",
         "hash": "642843670",
         "path": "outstatic/content/posts/nothing-wrong.md"
@@ -201,6 +183,24 @@
         }
       ],
       "title": "Testing a new post"
+    },
+    {
+      "__outstatic": {
+        "commit": "e888176642e9b22a5ee477288aba39fae86431ef",
+        "hash": "1124281740",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "/images/industrial-pattern.png",
+      "description": "This is my blog. I am sharing some ideas here",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
