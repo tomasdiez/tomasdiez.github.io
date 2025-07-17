@@ -1,6 +1,6 @@
 {
-  "commit": "5fec3cdbc6a07bdbe8ee775987e0e866c4804896",
-  "generated": "2025-07-17T01:15:14.268Z",
+  "commit": "d7220ea2e821225f894d3c4655a9ba65641b9518",
+  "generated": "2025-07-17T01:15:27.159Z",
   "metadata": [
     {
       "__outstatic": {
@@ -171,8 +171,8 @@
     },
     {
       "__outstatic": {
-        "commit": "5fec3cdbc6a07bdbe8ee775987e0e866c4804896",
-        "hash": "2543598997",
+        "commit": "d7220ea2e821225f894d3c4655a9ba65641b9518",
+        "hash": "3270811114",
         "path": "outstatic/content/posts/testing-a-new-post.mdx"
       },
       "author": {
@@ -185,6 +185,14 @@
       "slug": "testing-a-new-post",
       "status": "published",
       "tags": [
+        {
+          "label": "Life",
+          "value": "life"
+        },
+        {
+          "label": "Tests",
+          "value": "tests"
+        }
       ],
       "title": "Testing a new post"
     }

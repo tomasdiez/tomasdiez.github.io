@@ -20,6 +20,14 @@
         {
           "value": "outstatic",
           "label": "Outstatic"
+        },
+        {
+          "value": "life",
+          "label": "Life"
+        },
+        {
+          "value": "tests",
+          "label": "Tests"
         }
       ]
     },
