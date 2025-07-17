@@ -1,6 +1,6 @@
 {
-  "commit": "c11e022bb7b042fae07343fcb311732886940df2",
-  "generated": "2025-07-17T03:48:36.312Z",
+  "commit": "8bf3b12acffb39c9e2ab62ddda7a6c4bdca3a0ee",
+  "generated": "2025-07-17T03:52:03.014Z",
   "metadata": [
     {
       "__outstatic": {
@@ -101,22 +101,6 @@
       "slug": "flycream-travel",
       "status": "published",
       "title": "Flycream Travel"
-    },
-    {
-      "__outstatic": {
-        "commit": "875a779a8eddba7922e1d070ef7dd86240c9dec5",
-        "hash": "1879913844",
-        "path": "outstatic/content/pages/hello-world.mdx"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "pages",
-      "publishedAt": "2025-07-16T16:04:15.988Z",
-      "slug": "hello-world",
-      "status": "published",
-      "title": "Hello world"
     },
     {
       "__outstatic": {
