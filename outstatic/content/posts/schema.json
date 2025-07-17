@@ -22,6 +22,12 @@
           "label": "Outstatic"
         }
       ]
+    },
+    "image": {
+      "description": "Add featured image",
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "Image"
     }
   }
 }
