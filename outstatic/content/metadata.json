@@ -1,6 +1,6 @@
 {
-  "commit": "5577e548d91d54a10752978b086d62d38a2983fb",
-  "generated": "2025-07-16T23:56:39.120Z",
+  "commit": "5fec3cdbc6a07bdbe8ee775987e0e866c4804896",
+  "generated": "2025-07-17T01:15:14.268Z",
   "metadata": [
     {
       "__outstatic": {
@@ -171,8 +171,8 @@
     },
     {
       "__outstatic": {
-        "commit": "5577e548d91d54a10752978b086d62d38a2983fb",
-        "hash": "1838980268",
+        "commit": "5fec3cdbc6a07bdbe8ee775987e0e866c4804896",
+        "hash": "2543598997",
         "path": "outstatic/content/posts/testing-a-new-post.mdx"
       },
       "author": {
@@ -180,6 +180,7 @@
         "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
       },
       "collection": "posts",
+      "image": "/images/screenshot-2025-07-15-at-21.40.21-YwMT.png",
       "publishedAt": "2025-07-17T00:44:05.540Z",
       "slug": "testing-a-new-post",
       "status": "published",
