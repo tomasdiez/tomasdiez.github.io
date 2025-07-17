@@ -7,6 +7,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Cover Image"
+    },
+    "description": {
+      "description": "Front text",
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "Description"
     }
   }
 }
