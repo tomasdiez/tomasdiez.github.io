@@ -1,6 +1,6 @@
 {
-  "commit": "e888176642e9b22a5ee477288aba39fae86431ef",
-  "generated": "2025-07-17T03:52:26.423Z",
+  "commit": "c068a3ae1ddffb80743b3f518732b3c356e87076",
+  "generated": "2025-07-17T03:53:38.029Z",
   "metadata": [
     {
       "__outstatic": {
@@ -120,23 +120,6 @@
     },
     {
       "__outstatic": {
-        "commit": "573d0731421a5fe0023c6e5b173e73675863d252",
-        "hash": "498523311",
-        "path": "outstatic/content/projects/can-i-add-a-new-project.mdx"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "projects",
-      "image": "/images/screenshot-2025-07-12-at-11.41.24-kwNj.png",
-      "publishedAt": "2025-07-17T02:03:38.372Z",
-      "slug": "can-i-add-a-new-project",
-      "status": "published",
-      "title": "Can I add a new project?"
-    },
-    {
-      "__outstatic": {
         "commit": "ac2776d79f908f7782452bb919002083ebc5673a",
         "hash": "642843670",
         "path": "outstatic/content/posts/nothing-wrong.md"
@@ -201,6 +184,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "c068a3ae1ddffb80743b3f518732b3c356e87076",
+        "hash": "2261213400",
+        "path": "outstatic/content/projects/can-i-add-a-new-project.mdx"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "projects",
+      "coverimage": "/images/industrial-pattern.png",
+      "image": "",
+      "publishedAt": "2025-07-17T02:03:38.372Z",
+      "slug": "can-i-add-a-new-project",
+      "status": "published",
+      "title": "Can I add a new project?"
     }
   ]
 }
