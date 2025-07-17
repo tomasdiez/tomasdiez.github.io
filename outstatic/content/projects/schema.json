@@ -1,0 +1,12 @@
+{
+  "title": "projects",
+  "type": "object",
+  "properties": {
+    "image": {
+      "description": "Custom image",
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "image"
+    }
+  }
+}
