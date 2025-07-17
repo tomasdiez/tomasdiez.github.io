@@ -7,6 +7,12 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "image"
+    },
+    "coverimage": {
+      "description": "Add featured image",
+      "fieldType": "Image",
+      "dataType": "image",
+      "title": "coverimage"
     }
   }
 }
