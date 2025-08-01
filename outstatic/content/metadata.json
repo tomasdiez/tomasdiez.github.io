@@ -1,6 +1,6 @@
 {
-  "commit": "798b376e08dd2d450e7b2c1e079c53a7afb711e2",
-  "generated": "2025-07-17T06:20:34.179Z",
+  "commit": "79374dd3bde07a5c25c38a116325269eb6432fc8",
+  "generated": "2025-08-01T10:47:08.451Z",
   "metadata": [
     {
       "__outstatic": {
@@ -153,24 +153,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e888176642e9b22a5ee477288aba39fae86431ef",
-        "hash": "1124281740",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Tomas Diez",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "/images/industrial-pattern.png",
-      "description": "This is my blog. I am sharing some ideas here",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "c068a3ae1ddffb80743b3f518732b3c356e87076",
         "hash": "2261213400",
         "path": "outstatic/content/projects/can-i-add-a-new-project.mdx"
@@ -202,6 +184,24 @@
       "slug": "venezuela",
       "status": "published",
       "title": "ABOUT"
+    },
+    {
+      "__outstatic": {
+        "commit": "79374dd3bde07a5c25c38a116325269eb6432fc8",
+        "hash": "1526529505",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "/images/industrial-pattern.png",
+      "description": "This is my blog. I am sharing some ideas here",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
