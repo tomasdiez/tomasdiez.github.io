@@ -1,13 +1,13 @@
 ---
-title: "Nothing is wrong. Everything is perfect"
+title: "This is going to be fun"
 status: "published"
 author:
-  name: "Andre Vitorio"
+  name: "Tomas Diez"
   picture: "https://avatars.githubusercontent.com/u/1511398?v=4"
 slug: "nothing-wrong"
 description: "One more day, one more joy. I feel blessed."
-coverImage: "/images/screenshot-2025-07-10-at-15.37.02-UwNj.png"
-publishedAt: "2022-09-14T17:55:40.452Z"
+coverImage: ""
+publishedAt: "2025-07-31T16:00:00.000Z"
 image: ""
 ---
 

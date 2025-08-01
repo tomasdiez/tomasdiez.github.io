@@ -1,6 +1,6 @@
 {
-  "commit": "79374dd3bde07a5c25c38a116325269eb6432fc8",
-  "generated": "2025-08-01T10:47:08.451Z",
+  "commit": "829f095aeb18a883aca62d47b20226da92689c9f",
+  "generated": "2025-08-01T10:48:07.621Z",
   "metadata": [
     {
       "__outstatic": {
@@ -104,27 +104,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ac2776d79f908f7782452bb919002083ebc5673a",
-        "hash": "642843670",
-        "path": "outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/screenshot-2025-07-10-at-15.37.02-UwNj.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "image": "",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Nothing is wrong. Everything is perfect"
-    },
-    {
-      "__outstatic": {
         "commit": "c11e022bb7b042fae07343fcb311732886940df2",
         "hash": "349406049",
         "path": "outstatic/content/posts/testing-a-new-post.mdx"
@@ -202,6 +181,27 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "829f095aeb18a883aca62d47b20226da92689c9f",
+        "hash": "3796455430",
+        "path": "outstatic/content/posts/nothing-wrong.md"
+      },
+      "author": {
+        "name": "Tomas Diez",
+        "picture": "https://avatars.githubusercontent.com/u/1511398?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "One more day, one more joy. I feel blessed.",
+      "image": "",
+      "publishedAt": "2025-07-31T16:00:00.000Z",
+      "slug": "nothing-wrong",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "This is going to be fun"
     }
   ]
 }
