@@ -1,0 +1,39 @@
+---
+layout: page
+title: Work
+kicker: Work
+lede: >-
+  Everything below comes from the same question: what happens to a city — and
+  to a person — when the means of production come within reach? These are the
+  longest-running answers.
+description: >-
+  Fab City, Smart Citizen, Fablabs.io, Fab Lab Barcelona, Fab Lab Bali — the
+  projects of Tomas Diez.
+permalink: /work/
+---
+{% for project in site.data.projects %}
+<article class="project" id="{{ project.id }}">
+  <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+  <p class="project-meta">{{ project.meta }} &middot; <a href="{{ project.url }}">{{ project.link_label }}</a></p>
+  <p>{{ project.body }}</p>
+</article>
+{% endfor %}
+
+<section class="section" aria-labelledby="also-title">
+  <h2 id="also-title">Also</h2>
+  <ul class="also">
+    <li>
+      <span class="also-name">Meaningful Design Group</span> &mdash; the design
+      strategy consultancy I co-founded in Bali.
+      <!-- TODO-TOMAS: add MDG link when there is one you want to point to -->
+    </li>
+    <li>
+      <span class="also-name">RXTX</span> &mdash; my experimental studio, where I
+      transmit as TX &mdash; <a href="https://rxtx.space">rxtx.space</a>.
+    </li>
+    <li>
+      <span class="also-name">StudioP52</span> &mdash; an artist residency I
+      co-founded in Barcelona.
+    </li>
+  </ul>
+</section>

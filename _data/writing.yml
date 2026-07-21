@@ -1,0 +1,40 @@
+# Writing index. Newest first. Adding a piece = adding one block like:
+#
+# - title: The title
+#   venue: Where it ran
+#   year: 2026        # optional
+#   url: https://...
+#   note: (Spanish)   # optional
+
+- title: A Distributed Bauhaus Society
+  venue: Medium
+  year: 2025
+  url: https://medium.com/@tomasdiez
+
+- title: "Sembrar el Sol: Oil, War, and the Case for Energy You Can Touch"
+  venue: Fab City blog
+  url: https://blog.fab.city
+
+- title: "The Great Decoupling: Reclaiming the Means of Production of Life"
+  venue: Fab City blog
+  url: https://blog.fab.city
+
+- title: "Zen and the Art of Cycling: An Inquiry Into Values"
+  venue: Fab City blog
+  url: https://blog.fab.city
+
+- title: El diseño en los tiempos del cólera
+  venue: Medium
+  year: 2023
+  url: https://medium.com/@tomasdiez
+  note: Spanish
+
+- title: How the digital revolution will make cities produce everything they consume… again
+  venue: Fab City blog
+  year: 2018
+  url: https://blog.fab.city
+
+- title: The Mass Distribution of (almost) Everything
+  venue: the Fab City book
+  year: 2018
+  url: https://fablabbcn.org/wp-content/uploads/2020/09/Fab-City-The-Mass-Distribution-of-Almost-Everything.pdf

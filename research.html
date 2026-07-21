@@ -1,0 +1,63 @@
+---
+layout: page
+title: Research & teaching
+kicker: Research & teaching
+lede: >-
+  The lab was always a school in disguise. These are the programs we built
+  once we admitted it — and the papers where the arguments got tested.
+description: >-
+  Programs and publications — MDEF, MDDI, Fab Academy, and the research of
+  Tomas Diez.
+permalink: /research/
+---
+<section class="section" aria-labelledby="programs-title">
+  <span class="section-num" aria-hidden="true">01</span>
+  <h2 id="programs-title">Programs</h2>
+
+  <h3><a href="https://fablabbcn.org/education/in-house-programs/master-in-design-for-emergent-futures">Master in Design for Emergent Futures (MDEF)</a></h3>
+  <p>
+    Design education kept asking students to render the future; MDEF asks them
+    to prototype it and live with the consequences. I co-designed and
+    co-directed it at IAAC, together with Elisava, in Barcelona &mdash; a
+    master&rsquo;s where the fab lab is not a facility but the curriculum.
+  </p>
+
+  <h3><a href="https://fab.city/learning-programs/master-in-distributed-design-innovation/">Master in Design for Distributed Innovation (MDDI)</a></h3>
+  <p>
+    MDDI takes the same stance and distributes it: a program run between Fab
+    City and IAAC, training people to design distributed innovation from
+    inside the global network rather than from a handful of capitals.
+  </p>
+
+  <h3><a href="http://www.fabacademy.org">Fab Academy</a></h3>
+  <p>
+    Fab Academy is digital fabrication taught the way the network works: one
+    distributed program, directed by Neil Gershenfeld from MIT&rsquo;s Center for
+    Bits and Atoms, running simultaneously in labs across the world. I played
+    a key role in getting it launched, and Fab Lab Barcelona became a global
+    coordination point for it.
+  </p>
+
+  <h3>Exploring Emergent Futures &mdash; Royal College of Art</h3>
+  <p>
+    In London, I worked on the Exploring Emergent Futures platform at the
+    Royal College of Art.
+  </p>
+</section>
+
+<section class="section" aria-labelledby="publications-title">
+  <span class="section-num" aria-hidden="true">02</span>
+  <h2 id="publications-title">Selected publications</h2>
+  <ul class="index">
+    {% for pub in site.data.publications %}
+    <li>
+      <span class="entry-title">{% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
+      <span class="entry-meta">{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}{% if pub.note %} &middot; <span class="entry-note">{{ pub.note }}</span>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="section-foot">
+    500+ citations. The full list lives on
+    <a href="https://scholar.google.com/citations?user=SMRrzKoAAAAJ">Google Scholar</a>.
+  </p>
+</section>

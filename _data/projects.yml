@@ -1,0 +1,61 @@
+# Work page projects. Order here = order on the page.
+# Fields: id (anchor), name, url, link_label, meta (role line), body (HTML allowed).
+
+- id: fab-city
+  name: Fab City
+  url: https://fab.city
+  link_label: fab.city
+  meta: Global initiative & foundation — chairman of the board since 2024
+  body: >-
+    Fab City began as a challenge launched from IAAC and Fab Lab Barcelona:
+    move cities from "Products In, Trash Out" to "Data In, Data Out" — ship
+    data around the planet, keep materials spiralling close to home — until
+    they produce what they consume. Locally productive, globally connected,
+    with 2054 as the horizon. This was never nostalgia for smokestacks; it is
+    resilience you can measure. The challenge became a global initiative, the
+    initiative became a foundation, and since 2024 I chair its board.
+
+- id: smart-citizen
+  name: Smart Citizen
+  url: https://smartcitizen.me
+  link_label: smartcitizen.me
+  meta: Co-founder — open-source environmental sensing
+  body: >-
+    A sensor on a balcony is not a gadget — it is a citizen deciding that
+    environmental data should not only flow from the top down. We built Smart
+    Citizen as open hardware and open data: kits that let people collect and
+    share their own measurements of air, noise, and climate. In 2013, The
+    Guardian and Nesta recognized it among the top digital social innovators.
+
+- id: fablabs-io
+  name: Fablabs.io
+  url: https://fablabs.io
+  link_label: fablabs.io
+  meta: Co-founder — platform of the global Fab Lab Network
+  body: >-
+    The Fab Lab Network grew faster than any directory could track it, so we
+    built the place where it tracks itself. Fablabs.io is the online platform
+    of the global network: more than 2,000 labs across 126 countries sharing
+    knowledge, projects, and machines.
+
+- id: fab-lab-barcelona
+  name: Fab Lab Barcelona
+  url: https://fablabbcn.org
+  link_label: fablabbcn.org
+  meta: Co-founder & director — the first fab lab in the European Union
+  body: >-
+    The first fab lab in the European Union, at IAAC in Barcelona. I
+    co-founded and directed it as it grew from a room with machines into a
+    research hub and a global coordination point for the Fab Academy program.
+    Most of what I have done since walked out of that room first.
+
+- id: fab-lab-bali
+  name: Fab Lab Bali
+  url: https://fablabbali.org
+  link_label: fablabbali.org
+  meta: Founder — R&D lab, Indonesia
+  body: >-
+    An R&D lab in Indonesia, working with local communities on digital
+    fabrication and regenerative economies. It is the lab closest to home,
+    and the one where the questions are least abstract — a distributed
+    economy stops being a diagram when you have to live inside it.

@@ -1,0 +1,25 @@
+---
+layout: page
+title: Writing
+kicker: Writing
+lede: >-
+  This is where my thinking lands first, and where it settles. Some pieces
+  became programs, one became a book; most are still arguments.
+description: >-
+  Essays and arguments by Tomas Diez — on distributed production, energy,
+  design, and cities.
+permalink: /writing/
+---
+<ul class="index">
+  {% for piece in site.data.writing %}
+  <li>
+    <span class="entry-title"><a href="{{ piece.url }}">{{ piece.title }}</a></span>
+    <span class="entry-meta">{{ piece.venue }}{% if piece.year %}, {{ piece.year }}{% endif %}{% if piece.note %} &middot; <span class="entry-note">{{ piece.note }}</span>{% endif %}</span>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="aside aside-end">
+  Conceptual work-in-progress transmits from
+  <a href="https://rxtx.space">RXTX</a>.
+</p>

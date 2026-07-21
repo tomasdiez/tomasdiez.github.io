@@ -1,0 +1,47 @@
+# ------------------------------------------------------------------
+# tomasdiez.github.io — personal site of Tomas Diez
+# Built for the GitHub Pages NATIVE Jekyll build (safe mode).
+# Only whitelisted plugins are used. No theme gems, no custom Ruby.
+# ------------------------------------------------------------------
+
+title: Tomas Diez
+description: >-
+  Urbanist and technologist from Venezuela, based in Bali — working on
+  digital fabrication and cities that produce what they consume.
+
+url: "https://tomasdiez.github.io"
+# url: "https://tomasdiez.com" — flip when DNS is ready
+baseurl: ""
+
+lang: en
+timezone: Asia/Makassar # Bali, WITA (UTC+8)
+
+author:
+  name: Tomas Diez
+  email: hola@rxtx.space
+
+# jekyll-seo-tag reads these for og/twitter cards and JSON-LD.
+# twitter:
+#   username: # TODO-TOMAS: add X/Twitter handle here if wanted
+social:
+  name: Tomas Diez
+  links:
+    - https://www.linkedin.com/in/tomas-diez-2b37aa11
+    - https://scholar.google.com/citations?user=SMRrzKoAAAAJ
+    - https://github.com/tomasdiez
+    - https://www.instagram.com/tomasdiez
+    - https://medium.com/@tomasdiez
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+permalink: pretty
+
+# Keep repo housekeeping out of the built site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
