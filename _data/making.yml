@@ -18,7 +18,7 @@
     drill and finish their own boards. A skateboard is a good first object: you
     design it, you make it, then you stand on it. The means of production fit in
     a room, and the person using them can be a kid."
-- kind: space
+- kind: object
   status: live
   name: Studio P52 Lamp
   meta: StudioP52, Barcelona · design & digital fabrication
