@@ -1,0 +1,59 @@
+---
+layout: page
+title: Making
+kicker: Making
+lede: >-
+  Work you can walk into or pick up. Buildings and interiors I've designed and
+  given a strategy, and objects made in workshops from Barcelona to Bali. Fab
+  City is an argument about who gets to produce; this is me holding up my end.
+description: >-
+  Spaces and objects designed and built by Tomas Diez — Kasia Ungasan, The Loft
+  Uluwatu, Fab Skate, and objects from StudioP52, IAAC and La Victoria.
+permalink: /making/
+---
+<style>
+  .m-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0 6px}
+  .m-gallery figure{margin:0}
+  .m-gallery img{width:100%;height:auto;display:block;border:1px solid var(--line,#e2dccf);border-radius:6px}
+</style>
+
+{% assign spaces = site.data.making | where: "kind", "space" %}
+{% assign objects = site.data.making | where: "kind", "object" %}
+
+<section class="section" aria-labelledby="spaces-title">
+  <span class="section-num" aria-hidden="true">01</span>
+  <h2 id="spaces-title">Spaces</h2>
+  {% for item in spaces %}
+  <article class="project">
+    <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h3>
+    <p class="project-meta">{{ item.meta }}{% if item.url %} &middot; <a href="{{ item.url }}">{{ item.link_label }}</a>{% endif %}</p>
+    {% if item.body %}<p>{{ item.body }}</p>{% endif %}
+    {% if item.images %}
+    <div class="m-gallery">
+      {% for src in item.images %}<figure><img src="{{ src | relative_url }}" alt="{{ item.name }} — photo {{ forloop.index }}" loading="lazy"></figure>{% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+
+<section class="section" aria-labelledby="objects-title">
+  <span class="section-num" aria-hidden="true">02</span>
+  <h2 id="objects-title">Objects</h2>
+  {% for item in objects %}
+  <article class="project">
+    <h3>{% if item.url and item.status != "in-progress" %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h3>
+    {% if item.meta %}<p class="project-meta">{{ item.meta }}</p>{% endif %}
+    {% if item.status == "in-progress" %}
+      <p class="project-meta">In the workshop — materials coming.</p>
+    {% else %}
+      {% if item.body %}<p>{{ item.body }}</p>{% endif %}
+      {% if item.images %}
+      <div class="m-gallery">
+        {% for src in item.images %}<figure><img src="{{ src | relative_url }}" alt="{{ item.name }} — photo {{ forloop.index }}" loading="lazy"></figure>{% endfor %}
+      </div>
+      {% endif %}
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
