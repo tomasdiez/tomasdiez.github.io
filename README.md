@@ -36,7 +36,29 @@ versions GitHub uses in production.
 | Layouts | `_layouts/default.html`, `_layouts/page.html` |
 | All styles | `assets/css/main.css` |
 
-## Add a writing entry
+## Add an essay (the permanent record)
+
+Essays live in `_essays/` and render at `/writing/slug/` with the `essay`
+layout (assigned automatically via `_config.yml` defaults). They appear in
+the "On this site" section of the Writing page. This is where graduated
+RXTX transmissions land after a proper rewrite — citations, context, a
+haircut. Three ways to add one:
+
+1. **PagesCMS** (`.pages.yml` at repo root) → **Essays** collection.
+2. `python3 ~/websites/tools/publish.py essay path/to/draft.md`
+3. By hand: one `.md` file in `_essays/` with frontmatter:
+
+```yaml
+---
+title: "The title"
+date: 2026-08-01        # optional, defaults to today via publish.py
+description: "One sentence for search engines and link previews."
+venue: "First transmitted as TX-002."   # optional provenance note
+---
+Body in Markdown.
+```
+
+## Add a writing entry (external link)
 
 Append a block to `_data/writing.yml` (newest goes first):
 
