@@ -8,6 +8,24 @@ media:
   output: /assets/img        # the path used in the built site
 
 content:
+  # ---- Essays → _essays/*.md (the permanent record) ----
+  - name: essays
+    label: Essays
+    type: collection
+    path: _essays
+    filename: "{primary}.md"
+    view:
+      primary: title
+      sort: date
+      order: desc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: lede, label: Lede (optional), type: text }
+      - { name: description, label: Description (SEO / link previews), type: text }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: venue, label: Note (e.g. "First transmitted as TX-002"), type: string }
+      - { name: body, label: Body, type: rich-text }
+
   # ---- Work → _data/projects.yml ----
   - name: work
     label: Work

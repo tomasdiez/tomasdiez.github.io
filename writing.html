@@ -10,16 +10,37 @@ description: >-
   design, and cities.
 permalink: /writing/
 ---
-<ul class="index">
-  {% for piece in site.data.writing %}
-  <li>
-    <span class="entry-title"><a href="{{ piece.url }}">{{ piece.title }}</a></span>
-    <span class="entry-meta">{{ piece.venue }}{% if piece.year %}, {{ piece.year }}{% endif %}{% if piece.note %} &middot; <span class="entry-note">{{ piece.note }}</span>{% endif %}</span>
-  </li>
-  {% endfor %}
-</ul>
+{% assign essays = site.essays | sort: "date" | reverse %}
+{% if essays.size > 0 %}
+<section class="section" aria-labelledby="on-site-title">
+  <span class="section-num" aria-hidden="true">01</span>
+  <h2 id="on-site-title">On this site</h2>
+  <ul class="index">
+    {% for essay in essays %}
+    <li>
+      <span class="entry-title"><a href="{{ essay.url | relative_url }}">{{ essay.title }}</a></span>
+      <span class="entry-meta">{{ essay.date | date: "%Y" }}{% if essay.venue %} &middot; <span class="entry-note">{{ essay.venue }}</span>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
 
-<p class="aside aside-end">
-  Conceptual work-in-progress transmits from
-  <a href="https://rxtx.space">RXTX</a>.
-</p>
+<section class="section" aria-labelledby="elsewhere-title">
+  <span class="section-num" aria-hidden="true">{% if essays.size > 0 %}02{% else %}01{% endif %}</span>
+  <h2 id="elsewhere-title">Elsewhere</h2>
+  <ul class="index">
+    {% for piece in site.data.writing %}
+    <li>
+      <span class="entry-title"><a href="{{ piece.url }}">{{ piece.title }}</a></span>
+      <span class="entry-meta">{{ piece.venue }}{% if piece.year %}, {{ piece.year }}{% endif %}{% if piece.note %} &middot; <span class="entry-note">{{ piece.note }}</span>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="aside aside-end">
+    Conceptual work-in-progress transmits from
+    <a href="https://rxtx.space">RXTX</a>; the survivors are rewritten and
+    filed above.
+  </p>
+</section>
