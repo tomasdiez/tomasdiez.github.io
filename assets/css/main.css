@@ -332,6 +332,27 @@ main { padding-top: clamp(2.5rem, 7vw, 4.5rem); padding-bottom: 4rem; }
   margin-top: -0.4rem;
 }
 
+/* ---------- portrait ---------- */
+
+.portrait {
+  width: 9.5rem;
+  height: auto;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+}
+
+.portrait-hero { margin: 0 0 var(--rhythm); }
+
+.portrait-about { margin: 0 0 1rem; }
+
+@media (min-width: 44rem) {
+  .portrait-about {
+    float: right;
+    width: 11rem;
+    margin: 0.3rem 0 1.2rem 1.6rem;
+  }
+}
+
 /* ---------- asides / footnote-style notes ---------- */
 
 .aside {

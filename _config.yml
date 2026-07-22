@@ -47,6 +47,10 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: /assets/img/tomas-portrait-2025.jpg
+  - scope:
+      path: ""
       type: essays
     values:
       layout: essay
