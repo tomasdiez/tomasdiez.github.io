@@ -1,0 +1,14 @@
+- kind: object
+  status: live
+  name: Fab Skate
+  meta: Fab Kids programme · Fab Lab Barcelona · design & digital fabrication
+  url: https://share.google/yvq8rx4IfFj8UuVtA
+  images:
+    - /assets/img/IMG_1050.jpg
+  body: " Fab Skate came out of Fab Kids, the programme I ran in the early days of
+    Fab Lab Barcelona. The premise was simple, and a little subversive: a kid
+    shouldn't just buy a skateboard — they should be able to make one. We cut
+    the deck moulds on the CNC, pressed the veneers by hand, and let them shape,
+    drill and finish their own boards. A skateboard is a good first object: you
+    design it, you make it, then you stand on it. The means of production fit in
+    a room, and the person using them can be a kid."
