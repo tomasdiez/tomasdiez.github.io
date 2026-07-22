@@ -1,0 +1,75 @@
+# PagesCMS schema for tomasdiez.github.io
+# Lives at the repo root as .pages.yml
+# Gives a visual editor at app.pagescms.org for the four data-driven sections.
+# Docs: https://pagescms.org/docs/
+
+media:
+  input: assets/img          # where uploaded images are stored in the repo
+  output: /assets/img        # the path used in the built site
+
+content:
+  # ---- Work → _data/projects.yml ----
+  - name: work
+    label: Work
+    type: file
+    path: _data/projects.yml
+    list: true
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: id, label: Anchor id, type: string }
+      - { name: meta, label: Meta line, type: string }
+      - { name: url, label: Link URL, type: string, pattern: "^https?://" }
+      - { name: link_label, label: Link label, type: string }
+      - { name: body, label: Body, type: text }
+
+  # ---- Making → _data/making.yml ----
+  - name: making
+    label: Making
+    type: file
+    path: _data/making.yml
+    list: true
+    fields:
+      - name: kind
+        label: Kind
+        type: select
+        options:
+          values: [space, object]
+        default: space
+      - name: status
+        label: Status
+        type: select
+        options:
+          values: [live, in-progress]
+        default: live
+      - { name: name, label: Name, type: string, required: true }
+      - { name: meta, label: Meta line, type: string }
+      - { name: url, label: Link URL, type: string, pattern: "^https?://" }
+      - { name: link_label, label: Link label, type: string }
+      - { name: images, label: Images, type: image, list: true }
+      - { name: body, label: Body, type: text }
+
+  # ---- Publications → _data/publications.yml ----
+  - name: publications
+    label: Publications
+    type: file
+    path: _data/publications.yml
+    list: true
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: venue, label: Venue, type: string }
+      - { name: year, label: Year, type: number }
+      - { name: url, label: URL, type: string, pattern: "^https?://" }
+      - { name: note, label: Note, type: string }
+
+  # ---- Writing → _data/writing.yml ----
+  - name: writing
+    label: Writing
+    type: file
+    path: _data/writing.yml
+    list: true
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: venue, label: Venue, type: string }
+      - { name: year, label: Year, type: number }
+      - { name: url, label: URL, type: string, pattern: "^https?://" }
+      - { name: note, label: Note, type: string }
