@@ -1,0 +1,59 @@
+# Talks, videos, and podcast appearances for tomasdiez.com.
+# Rendered by writing.html as the "Talks & conversations" section.
+#
+#   title  linked headline (the talk or episode name)
+#   venue  event or show
+#   year   optional
+#   url    canonical link (YouTube, podcast page, etc.)
+#   note   optional — e.g. video, podcast, Spanish
+
+- title: Fab Labs in the City
+  venue: TEDxZwolle
+  year: 2013
+  url: https://www.youtube.com/watch?v=EEWRiW1naFc
+  note: video
+
+- title: 10 years of Fab Labs, 90 years of Fab Cities
+  venue: Open Hardware Summit, Rome
+  year: 2014
+  url: https://www.youtube.com/watch?v=MyijNRKeehA
+  note: video
+
+- title: Shaping Development and Sustainability
+  venue: FAB24, Puebla
+  year: 2024
+  url: https://www.youtube.com/watch?v=tf8h0kPPwk8
+  note: video
+
+- title: From Fab Cities to Fab Citizens
+  venue: Boundaryless Conversations
+  year: 2020
+  url: https://boundaryless.io/podcast/tomas-diez
+  note: podcast
+
+- title: Think globally, fabricate locally
+  venue: Fab Lab Barcelona podcast
+  url: https://fablabbcn.org/podcast/think-globally-fabricate-locally
+  note: podcast
+
+- title: Entrevista a Tomás Diez, Fab Lab Barcelona
+  venue: La Hora Maker
+  year: 2016
+  url: https://www.lahoramaker.com/2016/08/02/la-hora-maker-035-entrevista-a-tomas-diez-de-fab-lab-barcelona
+  note: podcast · Spanish
+
+- title: Fab City Hub Voices
+  venue: CENTRINNO
+  url: https://www.youtube.com/watch?v=oHBWPF_w1R4
+  note: video
+
+- title: AD Entrevistas
+  venue: FAB13, Santiago
+  year: 2017
+  url: https://www.youtube.com/watch?v=DJOLk1kFVJw
+  note: video · Spanish
+
+- title: "Global transitions, Fab Labs and Fab Cities"
+  venue: Open Electronics
+  url: https://www.open-electronics.org/global-transitions-fab-labs-and-fab-cities-interview-with-tomas-diez
+  note: written interview

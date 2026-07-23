@@ -44,3 +44,16 @@ permalink: /writing/
     filed above.
   </p>
 </section>
+
+<section class="section" aria-labelledby="talks-title">
+  <span class="section-num" aria-hidden="true">{% if essays.size > 0 %}03{% else %}02{% endif %}</span>
+  <h2 id="talks-title">Talks &amp; conversations</h2>
+  <ul class="index">
+    {% for talk in site.data.talks %}
+    <li>
+      <span class="entry-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
+      <span class="entry-meta">{{ talk.venue }}{% if talk.year %}, {{ talk.year }}{% endif %}{% if talk.note %} &middot; <span class="entry-note">{{ talk.note }}</span>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
